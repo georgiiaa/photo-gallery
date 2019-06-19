@@ -1,0 +1,53 @@
+img{
+  height: 350px;
+  width: 300px;
+  padding: 10px;
+}
+h1 {
+  margin-left: 39.5%;
+  font-family: 'Cairo', sans-serif;
+  color: #393E41;
+  background-color:#DDDFDF;
+  border: 3px solid black;
+}
+
+@media screen and (min width:500px){
+  h1{
+    color:#D3D0CB
+  }
+}
+
+@media screen and (min width:200px){
+  h1{
+    color:#E7E5DF
+  }
+}
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align:center;
+  border: 3px solid black;
+}
+
+figure{
+
+  font-family: 'Cairo', sans-serif;
+}
+
+.cities{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+figcaption{
+  border: 3px solid grey;
+}
+
+a href{
+  color: solid black;
+  margin-left: 39.5%;
+}
